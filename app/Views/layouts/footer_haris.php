@@ -5,7 +5,7 @@
             <a class="btn btn-circle bg-tele" href="<?= base_url('home') ?>">
                 <div class="icon"><i class="bi bi-telegram"></i></div>
             </a>
-            <a class="btn btn-blue" href="<?= base_url('home') ?>">
+            <a class="btn btn-blue" href="<?= base_url('login') ?>">
                 Login
             </a>
             <a class="btn btn-circle bg-wa" href="contact-us.html">

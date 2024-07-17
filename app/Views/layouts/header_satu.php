@@ -15,7 +15,10 @@
     <!--CSS Files-->
     <link href="<?= base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet" />
     <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet"> -->
-     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link href="<?= base_url(); ?>assets/css/style.css" rel="stylesheet" />
     <link href="<?= base_url(); ?>assets/css/dark-theme.css" rel="stylesheet" />

@@ -675,7 +675,8 @@ a {
 
 
 /* Haris */
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&display=swap');
+
 /* Header */
 .header-before-login{
     height:50vh;
@@ -696,6 +697,14 @@ a {
     margin:0 10px 0 10px;
     font-weight:700;
     letter-spacing: 1px;
+    border:0;
+    font-family:'League Spartan', sans-serif;
+}
+.btn-blue:hover{
+    background: linear-gradient(to right, #083A70, #CF286E);
+    color: white;
+    border:0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 
 }
 .btn-circle{
@@ -715,7 +724,7 @@ a {
 
 /* page content */
 .background{
-    position:absolute;
+    position:fixed;
     z-index:-99;
     top: 0;
     height:60%;
@@ -726,6 +735,20 @@ a {
     padding-right:1.5rem;
     padding-top:1.5rem;
     font-family:'League Spartan', sans-serif;
+}
+.overflow {
+    position: relative; 
+    z-index: 2; 
+    overflow-y: auto;
+    max-height: calc(100vh);
+    padding: 10px;
+    padding-bottom:8rem;
+}
+.cont {
+    position: relative;
+    z-index: 1; 
+    max-width: 100%;
+    overflow-x: hidden;
 }
 .rectangle-yellow{
     position:fixed;
@@ -807,4 +830,49 @@ a {
     font-size: 11px;
     font-weight:600;
 
+}
+
+/* page login */
+.container-login img{
+    width: 70%;
+}
+.form-login{
+    padding:4rem;
+}
+.form-login  input[type=text]{
+    border: none;
+    border-radius:0;
+    border-bottom: 2px solid #083A70;
+    font-family:'League Spartan', sans-serif;
+    color:#083A70;
+}
+.form-login  input[type=password]{
+    border: none;
+    border-radius:0;
+    border-bottom: 2px solid #083A70;
+    font-family:'League Spartan', sans-serif;
+    color:#083A70;
+}
+.form-login .a-link{
+    width:100%;
+    text-align:end !important;
+    font-family:'League Spartan', sans-serif;
+    font-weight:700;
+    font-size:18px;
+    letter-spacing: 1px;
+}
+.form-login .form-group-bottom{
+    font-family:'League Spartan', sans-serif;
+    color:#083A70;
+    margin-top:2rem;
+}
+.form-login .submit-login{
+    font-family:'League Spartan', sans-serif;
+    font-weight:900;
+    font-size:30px;
+    width:11rem !important;
+    color:white;
+    border-radius:4rem;
+    background-color:#083A70;
+    background: linear-gradient(to right, #054EB4, #00AFDB);
 }
