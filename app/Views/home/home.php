@@ -1,19 +1,30 @@
 <?= $this->include('layouts/header'); ?>
 <div class="page-content">
-    <div class="mb-3 border p-3 rounded-3">
-        <div class="container mt-4">
-            <div class="row">
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
-                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+<div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="<?= base_url(); ?>assets/img/example-image/banner-baru.png" class="d-block w-100" alt="<?= base_url(); ?>assets/img/example-image/banner-baru.png">
+            </div>
+            <div class="carousel-item">
+                <img src="<?= base_url(); ?>assets/img/example-image/banner-baru.png" class="d-block w-100" alt="<?= base_url(); ?>assets/img/example-image/banner-baru.png">
+            </div>
+            <div class="carousel-item">
+                <img src="<?= base_url(); ?>assets/img/example-image/banner-baru.png" class="d-block w-100" alt="<?= base_url(); ?>assets/img/example-image/banner-baru.png">
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 </div>
 <?= $this->include('layouts/footer'); ?>

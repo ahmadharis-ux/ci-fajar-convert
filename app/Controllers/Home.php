@@ -9,6 +9,13 @@ class Home extends BaseController
         $data = [
             'title' => 'home'
         ];
+        return view('dashboard/before', $data);
+    }
+    public function home(): string
+    {
+        $data = [
+            'title' => 'home'
+        ];
         return view('home/home', $data);
     }
 

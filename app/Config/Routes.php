@@ -6,10 +6,11 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+$routes->get('/dashboard', 'Home::index');
 $routes->get('menu', 'Menu::index');
 
 $routes->group('home', static function ($routes) {
-    $routes->get('/', 'Home::index');
+    $routes->get('/', 'Home::home');
 });
 
 $routes->group('menu', static function ($routes) {
