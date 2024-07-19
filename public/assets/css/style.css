@@ -876,3 +876,24 @@ a {
     background-color:#083A70;
     background: linear-gradient(to right, #054EB4, #00AFDB);
 }
+
+/* Daftar */
+.container-daftar{
+    font-family:'League Spartan', sans-serif;
+    color:#083A70;
+    line-height: 1.3;
+
+}
+.container-daftar .ms-2{
+    line-height:0;
+}
+.container-daftar h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color:#083A70;
+}
+.container-daftar label{
+    font-weight: 600;
+    font-size: 15px;
+
+}

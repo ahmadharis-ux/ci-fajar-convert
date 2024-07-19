@@ -9,6 +9,7 @@ $routes->get('/', 'Home::index');
 $routes->get('/dashboard', 'Home::index');
 $routes->get('menu', 'Menu::index');
 $routes->get('/login', 'Login::index');
+$routes->get('/daftar', 'Daftar::index');
 
 $routes->group('home', static function ($routes) {
     $routes->get('/', 'Home::home');

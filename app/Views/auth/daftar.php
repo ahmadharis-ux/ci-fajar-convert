@@ -40,23 +40,33 @@
 
     <!--start wrapper-->
     <div class="wrapper">
-        <div class="container container-login text-center mt-5">
-            <img src="<?= base_url(); ?>assets/img/example-image/group-1.png" alt="">
+        <div class="container container-daftar d-flex justify-content-center mt-5">
+            <img src="<?= base_url(); ?>assets/img/example-image/fix-logo.png" alt="">
+            <div class="ms-2">
+                <h1>Daftar</h1>
+                <label for="">Silahkan isi data berikut!</label>
+            </div>
         </div>
         <form action="" class="form-login">
             <div class="form-group mb-4">
+                <input type="text" class="form-control" placeholder="Nama Lengkap">
+            </div>
+            <div class="form-group mb-4">
                 <input type="text" class="form-control" placeholder="Email">
             </div>
-            <div class="form-group">
+            <div class="form-group mb-4">
+                <input type="text" class="form-control" placeholder="Nomor whatsapp">
+            </div>
+            <div class="form-group mb-4">
                 <input type="password" class="form-control" placeholder="Password">
-                <div class="a-link">
-                    <a href="">Lupa Password</a>
-                </div>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Konfirmasi Password">
             </div>
             <div class="form-group-bottom text-center">
-                <button type="submit" class="btn btn-lg submit-login mb-2">Login</button> <br>
-                <label for="">Belum mempunyai akun?</label><br>
-                <a href="<?= base_url('daftar') ?>"><b>Daftar</b></a>
+                <button type="submit" class="btn btn-lg submit-login mb-2">Daftar</button> <br>
+                <label for="">Sudah mempunyai akun?</label><br>
+                <a href="<?= base_url('login') ?>"><b>Login</b></a>
             </div>
         </form>
     </div>
