@@ -58,7 +58,8 @@
                 </div>
             </div>
             <div class="form-group-bottom text-center" data-aos="fade-up"  data-aos-duration="2000">
-                <button type="submit" class="btn btn-lg submit-login mb-2">Login</button> <br>
+                <!-- <button type="submit" class="btn btn-lg submit-login mb-2">Login</button> <br> -->
+                <a href="/home" class="btn btn-lg submit-login mb-2">Login</a> <br>
                 <label for="">Belum mempunyai akun?</label><br>
                 <a href="<?= base_url('daftar') ?>"><b>Daftar</b></a>
             </div>
