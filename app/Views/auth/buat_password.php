@@ -23,14 +23,10 @@
     <link href="<?= base_url(); ?>assets/css/style.css" rel="stylesheet" />
     <link href="<?= base_url(); ?>assets/css/dark-theme.css" rel="stylesheet" />
 
-
-    <!-- Aos Effect -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
-<body class="mx-auto" <?php echo ((\Config\Services::request()->getUserAgent()->isMobile() == false) ? 'style="width: 500px;"' : ""); ?>>
+<body class="mx-auto bg-reset" <?php echo ((\Config\Services::request()->getUserAgent()->isMobile() == false) ? 'style="width: 500px;"' : ""); ?>>
 
     <!--page loader-->
     <div class="loader-wrapper">
@@ -44,33 +40,33 @@
 
     <!--start wrapper-->
     <div class="wrapper">
-        <div class="container container-login text-center mt-5">
-            <img src="<?= base_url(); ?>assets/img/example-image/group-1.png" alt="">
-        </div>
-        <form action="" class="form-login">
-            <div class="form-group mb-4">
-                <input type="text" class="form-control" placeholder="Email">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password">
-                <div class="a-link">
-                    <a href="<?= base_url('lupa_password') ?>">Lupa Password</a>
+        <!--start to header-->
+        <header class="top-header header-lupa-password align-items-center mx-auto" <?php echo ((\Config\Services::request()->getUserAgent()->isMobile() == false) ? 'style="width: 500px;"' : ""); ?>>
+            <nav class="navbar navbar-expand w-100 p-0 gap-3 align-items-center">
+                <div class="mx-auto text-center mt-3">
+                    <img src="<?= base_url(); ?>assets/img/example-image/fix-logo.png" class="mx-auto mt-3 mb-2" alt="">
+                    <h1>Buat Password</h1>
+                    <label for="">Silahkan isi data berikut untuk buat password anda!</label>
                 </div>
+            </nav>
+        </header>
+        <!-- end of header -->
+        <form action="" class="form-reset">
+            <div class="form-group mb-4">
+                <input type="password" class="form-control" placeholder="Password">
             </div>
-            <div class="form-group-bottom text-center" data-aos="fade-up"  data-aos-duration="2000">
-                <button type="submit" class="btn btn-lg submit-login mb-2">Login</button> <br>
-                <label for="">Belum mempunyai akun?</label><br>
-                <a href="<?= base_url('daftar') ?>"><b>Daftar</b></a>
+            <div class="form-group mb-4">
+                <input type="password" class="form-control" placeholder="Konfirmasi Password">
+            </div>
+            <div class="form-group-bottom text-center">
+                <button type="submit" class="btn btn-lg submit-reset mb-2">Buat Password</button> <br>
+                <label for="">Sudah mempunyai akun?</label><br>
+                <a href="<?= base_url('login') ?>"><b>Login</b></a>
             </div>
         </form>
     </div>
     <!--end wrapper-->
 
-    <!-- Aos Effect -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
     <!--JS Files-->
     <script src="<?= base_url(); ?>assets/js/bootstrap.bundle.min.js"></script>

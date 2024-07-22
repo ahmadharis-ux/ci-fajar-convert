@@ -24,6 +24,9 @@
     <link href="<?= base_url(); ?>assets/css/dark-theme.css" rel="stylesheet" />
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+     <!-- Aos Effect -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="mx-auto" <?php echo ((\Config\Services::request()->getUserAgent()->isMobile() == false) ? 'style="width: 500px;"' : ""); ?>>

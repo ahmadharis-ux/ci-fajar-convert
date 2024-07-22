@@ -10,6 +10,18 @@ $routes->get('/dashboard', 'Home::index');
 $routes->get('menu', 'Menu::index');
 $routes->get('/login', 'Login::index');
 $routes->get('/daftar', 'Daftar::index');
+$routes->get('/lupa_password',function (){
+    $data = [
+        'title' => 'home'
+    ];
+    return view('auth/lupa_password', $data);
+});
+$routes->get('/buat_password',function (){
+    $data = [
+        'title' => 'home'
+    ];
+    return view('auth/buat_password', $data);
+});
 
 $routes->group('home', static function ($routes) {
     $routes->get('/', 'Home::home');

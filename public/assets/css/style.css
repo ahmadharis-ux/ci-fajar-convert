@@ -677,6 +677,15 @@ a {
 /* Haris */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&display=swap');
 
+body{
+    background-color:#FDFCF2;
+}
+input[type=text],input[type=password] {
+    background-color:transparent;
+}
+input[type=text],input[type=password]:focus {
+    background-color:transparent !important;
+}
 /* Header */
 .header-before-login{
     height:50vh;
@@ -895,5 +904,70 @@ a {
 .container-daftar label{
     font-weight: 600;
     font-size: 15px;
+}
 
+/* Lupa Password */
+.bg-reset {
+    background-color:#FDFCF2;
+}
+.header-lupa-password{
+    font-family:'League Spartan', sans-serif;
+    height:15rem !important;
+    background-color:#CF286E;
+    position:flex !important;
+    color:#FDFAE3 !important;
+    border-radius:0 0 30px 30px;
+}
+.header-lupa-password .mx-auto{
+    line-height:0;
+}
+
+.header-lupa-password h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color:#FDFAE3 !important;
+
+}
+.header-lupa-password label{
+    font-weight: 600;
+    font-size: 14px;
+}
+.form-reset .form-group-bottom{
+    font-family:'League Spartan', sans-serif;
+    color:#083A70;
+    margin-top:2rem;
+}
+.form-reset .submit-reset{
+    font-family:'League Spartan', sans-serif;
+    font-weight:700;
+    font-size:20px;
+    width:90%;
+    padding: .8rem 1rem .5rem 1rem;
+    color:white;
+    border-radius:4rem;
+    background-color:#083A70;
+    background: linear-gradient(to right, #054EB4, #CF286E);
+}
+.form-reset .submit-reset:hover{
+    background: linear-gradient(to right, #CF286E, #054EB4);
+
+}
+.form-reset{
+    padding:4rem;
+}
+.form-reset  input[type=text]{
+    background-color:transparent;
+    border: none;
+    border-radius:0;
+    border-bottom: 2px solid #083A70;
+    font-family:'League Spartan', sans-serif;
+    color:#083A70;
+}
+.form-reset  input[type=password]{
+    background-color:transparent;
+    border: none;
+    border-radius:0;
+    border-bottom: 2px solid #083A70;
+    font-family:'League Spartan', sans-serif;
+    color:#083A70;
 }

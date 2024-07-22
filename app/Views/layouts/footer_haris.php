@@ -22,7 +22,11 @@
 </div>
 <!--end wrapper-->
 
-
+<!-- Aos Effect -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <!--JS Files-->
 <script src="<?= base_url(); ?>assets/js/bootstrap.bundle.min.js"></script>
 
