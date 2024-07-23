@@ -1178,7 +1178,7 @@ input[type=text],input[type=password]:focus {
 }
 .container-withdraw .card{
     background-color:#25D4B7;
-    opacity: 0.77;
+    /* opacity: 0.77; */
     height:max-content;
     border-radius:15px;
     padding:10px;
@@ -1203,17 +1203,21 @@ input[type=text],input[type=password]:focus {
     font-size:13px;
     font-weight:700;
     color:#FDFCF2;
+
 }
 .container-withdraw .overflow-withdraw form .form-control{
     margin-bottom:5px;
     font-family: "Lexend Deca", sans serif;
     font-size:10px;
+
 }
 .container-withdraw .overflow-withdraw form .form-select{
     margin-bottom:5px;
     font-family: "Lexend Deca", sans serif;
     font-size:10px;
     background-color:#FDFCF2;
+    opacity: none !important;
+
 }
 .container-withdraw .overflow-withdraw form .form-control{
     font-family: "Lexend Deca", sans serif;
@@ -1266,6 +1270,20 @@ input[type=text],input[type=password]:focus {
     border-radius:3rem;
     color:#FDFCF2;
     font-weight:600;
+}
+.container-withdraw .accordion button::focus{
+    border:none;
+}
+.container-withdraw .accordion button{
+    font-family:"Lexend Deca", sans serif;
+    font-weight:700;
+    font-size:15px;
+    opacity:1;
+}
+.container-withdraw .accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: var(--bs-accordion-active-bg);
+    box-shadow: none;
 }
 /* #navbar {
     background-color: #CF286E;

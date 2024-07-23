@@ -64,16 +64,33 @@
                         <button class="btn btn-withdraw btn-sm mt-3">Withdraw</button>
                     </form>
                 </div>
-                <div class="accordion mt-3" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div class="accordion mt-3" id="accordionExample" style="border-radius:15px !important;border:0 !important;background-color:#25D4B7;">
+                    <div class="accordion-item" style="border-radius:15px !important;border:0 !important;background-color:#25D4B7;">
+                        <h2 class="accordion-header" style="border:none !important;border-radius:15px !important;border:0 !important;background-color:#25D4B7;">
+                            <button class="accordion-button" style="border-radius:15px !important;border:transparent !important;background-color:#25D4B7;color:#083A70" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 Langkah - langkah Withdraw
                             </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="color:#083A70; font-size:9px; font-family:'Lexend Deca',sans serif;">
+                                <ol type="1" style="padding-left: 10px;">
+                                    <li>Pilih <b>Sistem</b> Withdraw yang ingin digunakan, ada 2 Opsi:</li>
+                                    <ul>
+                                        <li><b>Otomatis</b> : Uang Akan Ditransfer Sistem Dengan Cepat (INSTAN)</li>
+                                        <li><b>Manual</b> : Uang Akan Diproses Manual 1x24 Oleh Staff Kami (SLOW)</li>
+                                    </ul>
+                                    <li>Pilih <b>Type</b> Withdraw yang ingin digunakan, ada 2 Opsi:</li>
+                                    <ul>
+                                        <li><b>Bank</b> :Menampilkan bank yang support</li>
+                                        <li><b>E-Wallet</b> :Menampilkan List Ewallet</li>
+                                    </ul>
+                                    <li>Pilih <b>Metode</b> Withdraw yang ingin digunakan untuk pencairan dana</li>
+                                    <li>Masukan <b>Nomer Rekening</b> untuk pencairan dana</li>
+                                    <li>Klik <b>Check</b> Untuk validasi nomer rekening</li>
+                                    <li>Masukan <b>Jumlah</b> Withdraw yang akan dicairkan</li>
+                                    <li>Klik <b>Withdraw</b> untuk melakukan pencairan</li>
+                                    <li><b>Selesai.</b></li>
+                                </ol>
                             </div>
                         </div>
                     </div>

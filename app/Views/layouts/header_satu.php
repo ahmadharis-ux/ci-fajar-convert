@@ -29,7 +29,7 @@
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body class="mx-auto" <?php echo ((\Config\Services::request()->getUserAgent()->isMobile() == false) ? 'style="width: 500px;"' : ""); ?>>
+<body class="mx-auto" style="width: 500px;">
 
     <!--page loader-->
     <div class="loader-wrapper">
