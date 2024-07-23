@@ -23,7 +23,7 @@
                         </div>
                         <div class="form-group">
                             <label for="" class="">Jumlah convert</label>
-                            <div class="d-flex justify-content-start">
+                            <div class="d-flex justify-content-start"> 
                                 <div class="p-1 rp text-center">Rp</div>
                                 <input type="text" class="form-control form-control-sm input-jumlah">
                             </div>
