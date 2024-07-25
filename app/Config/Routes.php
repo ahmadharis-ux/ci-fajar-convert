@@ -8,21 +8,19 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('/dashboard', 'Home::index');
 $routes->get('menu', 'Menu::index');
-$routes->get('/login', 'Login::index');
-$routes->get('/daftar', 'Daftar::index');
-$routes->get('/lupa_password',function (){
-    $data = [
-        'title' => 'home'
-    ];
-    return view('auth/lupa_password', $data);
-});
-$routes->get('/buat_password',function (){
+
+$routes->get('/login', 'Auth::login');
+$routes->get('/daftar', 'Auth::daftar');
+$routes->get('/lupa_password', 'Auth::lupa_password');
+
+$routes->get('/buat_password', function () {
     $data = [
         'title' => 'home',
     ];
     return view('auth/buat_password', $data);
 });
-$routes->get('/home',function (){
+
+$routes->get('/home', function () {
     $data = [
         'title' => 'Dashboard',
         'active' => 'dashboard',
@@ -32,45 +30,19 @@ $routes->get('/home',function (){
     ];
     return view('dashboard/index', $data);
 });
+
 // Lainnya
-$routes->get('/lainnya',function (){
-    $data = [
-        'title' => 'Lainnya',
-        'active' => 'lainnya',
-        'username' => 'Ahmad Haris',
-        'saldo' => 100000,
-        'transaksi' => 2500000,
-    ];
-    return view('lainnya/index', $data);
-});
-$routes->get('/store_withdraw',function (){
-    $data = [
-        'title' => 'New Withdraw',
-        'active' => 'lainnya',
-        'username' => 'Ahmad Haris',
-        'saldo' => 100000,
-        'transaksi' => 2500000,
-    ];
-    return view('withdraw/create', $data);
-});
-$routes->get('/store_setor',function (){
-    $data = [
-        'title' => 'New Withdraw',
-        'active' => 'lainnya',
-        'username' => 'Ahmad Haris',
-        'saldo' => 100000,
-        'transaksi' => 2500000,
-    ];
-    return view('setor/create', $data);
-});
+$routes->get('/lainnya', 'Lainnya::index');
 
-$routes->group('home', static function ($routes) {
-    $routes->get('/', 'Home::home');
-});
+$routes->get('/store_withdraw', 'Lainnya::withdraw');
 
-$routes->group('menu', static function ($routes) {
-    $routes->get('/', 'Menu::index');
-});
+$routes->get('/store_setor', 'Lainnya::setor');
 
-$routes->get('account', 'Home::account');
-$routes->get('account/profile', 'Home::profile');
+$routes->group('profile', static function ($routes) {
+    $routes->get('/', 'Profile::index');
+    $routes->get('/pengaturan-profile', 'Profile::pengaturan_profile');
+    $routes->get('/ganti-password', 'Profile::ganti_password');
+    $routes->get('/mutasi-saldo', 'Profile::mutasi-saldo');
+    $routes->get('/catatan-aktifitas', 'Profile::catatan_aktifitas');
+    $routes->get('/catatan-withdraw', 'Profile::catatan_withdraw');
+});

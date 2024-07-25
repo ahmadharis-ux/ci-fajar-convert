@@ -4,10 +4,10 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class Login extends BaseController
+class Profile extends BaseController
 {
     public function index()
     {
-       
+        //
     }
 }

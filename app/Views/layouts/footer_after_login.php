@@ -14,7 +14,7 @@
                     <div class="name <?php echo ($active === "lainnya") ? "active" : ""; ?>">Lainnya</div>
                 </div>
             </a>
-            <a class="nav-link" href="contact-us.html">
+            <a class="nav-link" href="<?= base_url('profile') ?>">
                 <div class="d-flex flex-column align-items-center">
                     <div class="icon <?php echo ($active === "profile") ? "active" : ""; ?>"><i class="bi bi-person-fill"></i></div>
                     <div class="name <?php echo ($active === "profile") ? "active" : ""; ?>">Profile</div>
