@@ -53,6 +53,16 @@ $routes->get('/store_withdraw',function (){
     ];
     return view('withdraw/create', $data);
 });
+$routes->get('/store_setor',function (){
+    $data = [
+        'title' => 'New Withdraw',
+        'active' => 'lainnya',
+        'username' => 'Ahmad Haris',
+        'saldo' => 100000,
+        'transaksi' => 2500000,
+    ];
+    return view('setor/create', $data);
+});
 
 $routes->group('home', static function ($routes) {
     $routes->get('/', 'Home::home');

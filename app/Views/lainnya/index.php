@@ -85,7 +85,7 @@
                 <div class="d-flex justify-content-around">
                     <img src="<?= base_url(); ?>assets/img/icon/bx_transaction.png" alt="" class="bg-image mt-2">
 
-                    <a href="" class="btn">
+                    <a href="<?= base_url('store_setor'); ?>" class="btn">
                         <img src="<?= base_url(); ?>assets/img/icon/ri_chat-new-fill.png" alt=""> <br>
                         Baru
                     </a>
