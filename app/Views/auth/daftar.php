@@ -23,10 +23,6 @@
     <link href="<?= base_url(); ?>assets/css/style.css" rel="stylesheet" />
     <link href="<?= base_url(); ?>assets/css/dark-theme.css" rel="stylesheet" />
 
-
-    <!-- Aos Effect -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
@@ -44,34 +40,38 @@
 
     <!--start wrapper-->
     <div class="wrapper">
-        <div class="container container-login text-center mt-5">
-            <img src="<?= base_url(); ?>assets/img/example-image/group-1.png" alt="">
+        <div class="container container-daftar d-flex justify-content-center mt-5">
+            <img src="<?= base_url(); ?>assets/img/example-image/fix-logo.png" alt="">
+            <div class="ms-2">
+                <h1>Daftar</h1>
+                <label for="">Silahkan isi data berikut!</label>
+            </div>
         </div>
         <form action="" class="form-login">
             <div class="form-group mb-4">
+                <input type="text" class="form-control" placeholder="Nama Lengkap">
+            </div>
+            <div class="form-group mb-4">
                 <input type="text" class="form-control" placeholder="Email">
             </div>
-            <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password">
-                <div class="a-link">
-                    <a href="<?= base_url('lupa_password') ?>">Lupa Password</a>
-                </div>
+            <div class="form-group mb-4">
+                <input type="text" class="form-control" placeholder="Nomor whatsapp">
             </div>
-            <div class="form-group-bottom text-center" data-aos="fade-up"  data-aos-duration="2000">
-                <!-- <button type="submit" class="btn btn-lg submit-login mb-2">Login</button> <br> -->
-                <a href="/home" class="btn btn-lg submit-login mb-2">Login</a> <br>
-                <label for="">Belum mempunyai akun?</label><br>
-                <a href="<?= base_url('daftar') ?>"><b>Daftar</b></a>
+            <div class="form-group mb-4">
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Konfirmasi Password">
+            </div>
+            <div class="form-group-bottom text-center">
+                <button type="submit" class="btn btn-lg submit-login mb-2">Daftar</button> <br>
+                <label for="">Sudah mempunyai akun?</label><br>
+                <a href="<?= base_url('login') ?>"><b>Login</b></a>
             </div>
         </form>
     </div>
     <!--end wrapper-->
 
-    <!-- Aos Effect -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
     <!--JS Files-->
     <script src="<?= base_url(); ?>assets/js/bootstrap.bundle.min.js"></script>

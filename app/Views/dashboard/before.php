@@ -1,5 +1,5 @@
 <?= $this->include('layouts/header_satu'); ?>
-<div class="page-content" style="padding:0; margin:0; width:100%; background-color:transparent !important;">
+<div class="page-content before" style="padding:0; margin:0; width:100%; background-color:transparent !important;">
     <div class="cont">
         <div class="background">
             <div class="overflow">
