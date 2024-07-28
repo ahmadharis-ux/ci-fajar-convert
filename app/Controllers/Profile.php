@@ -51,4 +51,14 @@ class Profile extends BaseController
         ];
         return view('profile/ubah_password', $data);
     }
+
+    public function mutasi_saldo()
+    {
+        $data = [
+            'title' => 'Profile',
+            'active' => 'profile',
+            'username' => 'Ahmad Haris',
+        ];
+        return view('profile/mutasi_saldo', $data);
+    }
 }

@@ -1295,6 +1295,62 @@ input[type=text],input[type=password]:focus {
     font-size: 20px;
 }
 
+.btn-download-mutasi{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600 !important;
+}
+
+.btn-download-mutasi:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-download-mutasi span{
+    margin-left: 5px;
+    padding-bottom: -10px !important;
+}
+
+.input-month-mutasi input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.tag-mutasi-transaksi {
+    color: white;
+    background-color: #E2B30B;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 165px;
+    height: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
+}
+
+.tanggal-mutasi-transaksi {
+    background-color: #D9D9D9;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    width: 488px;
+    max-width: 500px;
+    height: 25px;
+}
+
+.keterangan-mutasi{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.top-up-saldo-mutasi{
+    color: #007AFF;
+}
+
+.pembelian-saldo-mutasi{
+    color: #CF2828;
+}
+
 /* Dashboard After Login */
 .header-dashboard-login{
     font-family:'League Spartan', sans-serif;
