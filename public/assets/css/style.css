@@ -58,7 +58,7 @@ a {
 
   /* Navbar */
 .navbar-satu {
-    z-index: 2;
+    z-index: 90000;
     font-size: 25px;
         color: #FDFCF2;
 }
@@ -70,6 +70,12 @@ a {
         font-weight: 700;
 }
 
+.navbar-satu a{
+    text-decoration: none;
+    z-index: 9999;
+    color: white;
+    width: 50px;
+}
 
 /* Header */
 
@@ -80,6 +86,8 @@ a {
     padding-left: 1.0rem;
     padding-right: 1.0rem;
 }
+
+
 
 .page-content {
     margin-top: 60px;
@@ -1207,6 +1215,84 @@ input[type=text],input[type=password]:focus {
         top: 2rem;
 }
 
+.edit-profile-pengaturan{
+    background-color: #00000050;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    width: 109px;
+        height: 30px;
+        border-radius: 10px;
+}
+
+.btn-section-profile{
+    background-color: #25D4B7;
+    border-radius: 10px;
+    height: 57px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.edit-page-pengaturan{
+    max-width: 500px;
+    width: 488px;
+    height: auto;
+    background-color: #25d4b775;
+    border-radius: 15px;
+}
+
+.label-edit-pengaturan{
+    height: 21px;
+    background-color: #E2B30B;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    width: 100px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.row-edit-pengaturan {
+    margin-bottom: 30px !important;
+}
+
+.row-edit-pengaturan input[type=text],
+.row-edit-pengaturan input[type=number],
+.row-edit-pengaturan input[type=email]{
+    background-color: rgba(255, 255, 255, 0.753) !important;
+    border: none !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
+    width: 100% !important;
+    border-radius: 10px !important;
+    height: 40px !important;
+    color: #00000095 !important;
+    font-weight: 550 !important;
+    padding: 0 15px !important;
+}
+
+.input-edit-pengaturan:focus{
+    border: none !important;
+    outline: none !important;
+}
+
+.btn-edit-page-pengaturan{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-edit-page-pengaturan button{
+    height: 40px;
+    width: 171px;
+    background-color: #083A70;
+    color: #FFBF00;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
 /* Dashboard After Login */
 .header-dashboard-login{
     font-family:'League Spartan', sans-serif;
@@ -1324,6 +1410,13 @@ input[type=text],input[type=password]:focus {
     /* z-index:-1; */
     top:30%;
 }
+.content-lainnya .card-main svg{
+    position:absolute;
+    /* z-index:-1; */
+    top:30%;
+}
+
+
 .content-lainnya .card-main a{
     background-color:#FDFCF2;
     width:111px;

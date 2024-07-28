@@ -38,9 +38,10 @@ $routes->get('/store_withdraw', 'Lainnya::withdraw');
 
 $routes->get('/store_setor', 'Lainnya::setor');
 
+$routes->get('profile/pengaturan', 'Profile::pengaturan_profile');
+
 $routes->group('profile', static function ($routes) {
     $routes->get('/', 'Profile::index');
-    $routes->get('/pengaturan-profile', 'Profile::pengaturan_profile');
     $routes->get('/ganti-password', 'Profile::ganti_password');
     $routes->get('/mutasi-saldo', 'Profile::mutasi-saldo');
     $routes->get('/catatan-aktifitas', 'Profile::catatan_aktifitas');

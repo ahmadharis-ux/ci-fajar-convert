@@ -78,8 +78,8 @@
         </div>
     </div>
     <!-- Pengaturan profile  -->
-    <a href="<?= base_url() . 'pengaturan-profile' ?>" class="row mt-3 mx-2">
-        <div class="d-flex justify-content-center" style="background-color: #25D4B7; border-radius: 10px; height:57px;">
+    <a href="<?= base_url() . 'profile/pengaturan' ?>" class="row mt-3 mx-2">
+        <div class="d-flex justify-content-center btn-section-profile">
             <div class="row my-auto mx-auto w-100 d-flex justify-content-between">
                 <div class="col-2" style="background-color: #E2B30B; border-radius: 100%; height: 40px; width: 40px; display: flex; align-items: center; justify-content: center;">
                     <div class="">
@@ -99,7 +99,7 @@
                 </div>
                 <div class="col-2 d-flex justify-content-end align-items-center">
                     <div class="">
-                        <svg viewBox="-4.5 0 20 20" version="1.1" width="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                        <svg viewBox="-4.5 0 20 20" version="1.1" width="20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
@@ -122,7 +122,7 @@
     </a>
     <!-- Ubah password  -->
     <a href="" class="row mt-3 mx-2">
-        <div class="d-flex justify-content-center" style="background-color: #25D4B7; border-radius: 10px; height:57px;">
+        <div class="d-flex justify-content-center btn-section-profile">
             <div class="row my-auto mx-auto w-100 d-flex justify-content-between">
                 <div class="col-2" style="background-color: #E2B30B; border-radius: 100%; height: 40px; width: 40px; display: flex; align-items: center; justify-content: center;">
                     <div class="">
@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-2 d-flex justify-content-end align-items-center">
                     <div class="">
-                        <svg viewBox="-4.5 0 20 20" version="1.1" width="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                        <svg viewBox="-4.5 0 20 20" version="1.1" width="20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
@@ -166,7 +166,7 @@
     <hr style="border: 1px solid; border-radius: 100%; width:100%">
     <!-- Nutasi Saldo  -->
     <a href="" class="row mt-3 mx-2">
-        <div class="d-flex justify-content-center" style="background-color: #25D4B7; border-radius: 10px; height:57px;">
+        <div class="d-flex justify-content-center btn-section-profile">
             <div class="row my-auto mx-auto w-100 d-flex justify-content-between">
                 <div class="col-2" style="background-color: #E2B30B; border-radius: 100%; height: 40px; width: 40px; display: flex; align-items: center; justify-content: center;">
                     <div class="">
@@ -186,7 +186,7 @@
                 </div>
                 <div class="col-2 d-flex justify-content-end align-items-center">
                     <div class="">
-                        <svg viewBox="-4.5 0 20 20" version="1.1" width="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                        <svg viewBox="-4.5 0 20 20" version="1.1" width="20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
@@ -209,7 +209,7 @@
     </a>
     <!-- Catatan Aktivitas -->
     <a href="" class="row mt-3 mx-2">
-        <div class="d-flex justify-content-center" style="background-color: #25D4B7; border-radius: 10px; height:57px;">
+        <div class="d-flex justify-content-center btn-section-profile">
             <div class="row my-auto mx-auto w-100 d-flex justify-content-between">
                 <div class="col-2" style="background-color: #E2B30B; border-radius: 100%; height: 40px; width: 40px; display: flex; align-items: center; justify-content: center;">
                     <div class="">
@@ -229,7 +229,7 @@
                 </div>
                 <div class="col-2 d-flex justify-content-end align-items-center">
                     <div class="">
-                        <svg viewBox="-4.5 0 20 20" version="1.1" width="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                        <svg viewBox="-4.5 0 20 20" version="1.1" width="20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
@@ -253,7 +253,7 @@
     <hr style="border: 1px solid; border-radius: 100%; width:100%">
     <!-- log Out -->
     <a href="" class="row mt-3 mb-4 mx-2">
-        <div class="d-flex justify-content-center" style="background-color: #25D4B7; border-radius: 10px; height:57px;">
+        <div class="d-flex justify-content-center btn-section-profile">
             <div class="row my-auto mx-auto w-100 d-flex justify-content-between">
                 <div class="col-2" style="background-color: #E2B30B; border-radius: 100%; height: 40px; width: 40px; display: flex; align-items: center; justify-content: center;">
                     <div class="">
@@ -273,7 +273,7 @@
                 </div>
                 <div class="col-2 d-flex justify-content-end align-items-center">
                     <div class="">
-                        <svg viewBox="-4.5 0 20 20" version="1.1" width="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                        <!-- <svg viewBox="-4.5 0 20 20" version="1.1" width="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
@@ -288,7 +288,7 @@
                                     </g>
                                 </g>
                             </g>
-                        </svg>
+                        </svg> -->
                     </div>
                 </div>
             </div>
