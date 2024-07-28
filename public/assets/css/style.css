@@ -897,7 +897,6 @@ input[type=text],input[type=password]:focus {
 }
 
 
-
 /* page daftar */
 .form-daftar {
     margin: -20px 20% !important;
@@ -1170,7 +1169,43 @@ input[type=text],input[type=password]:focus {
     object-fit: contain;
 }
 
+.header-profile {
+    font-family: 'League Spartan', sans-serif;
+    height: 16rem !important;
+    background: linear-gradient(to right, #054EB4, #CF286E);
+    color: #FDFAE3 !important;
+    border-radius: 0 0 30px 30px;
+}
 
+.header-profile img{
+    border-radius: 50%;
+        border: 2px #FDFAE3 solid;
+        object-fit: cover;
+        width: 45px;
+        height: 45px;
+        background-color: #FDFAE3;
+        padding: 0;
+}
+
+.header-profile h1{
+    font-size: 2rem;
+        font-weight: 700;
+        color: #FDFAE3 !important;
+}
+
+.header-profile .card{
+    border: 2px #FDFAE3 solid;
+        background-color: rgba(18, 18, 18, 0.327);
+        padding: 4px;
+        width: 100%;
+        top: 50%;
+}
+
+.header-profile .card .bi{
+    font-size: 2rem !important;
+        vertical-align: middle;
+        top: 2rem;
+}
 
 /* Dashboard After Login */
 .header-dashboard-login{
