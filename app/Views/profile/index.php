@@ -208,7 +208,7 @@
         </div>
     </a>
     <!-- Catatan Aktivitas -->
-    <a href="<?= base_url() . 'profile/catatan_aktifitas' ?>" class="row mt-3 mx-2">
+    <a href="<?= base_url() . 'profile/catatan-aktifitas' ?>" class="row mt-3 mx-2">
         <div class="d-flex justify-content-center btn-section-profile">
             <div class="row my-auto mx-auto w-100 d-flex justify-content-between">
                 <div class="col-2" style="background-color: #E2B30B; border-radius: 100%; height: 40px; width: 40px; display: flex; align-items: center; justify-content: center;">
@@ -225,6 +225,51 @@
                 <div class="col-8">
                     <div class="d-flex justify-content-center align-items-center" style="font-size: 18px; color: white; font-weight: 600; height: 100%;">
                         <span>Catatan Aktifitas</span>
+                    </div>
+                </div>
+                <div class="col-2 d-flex justify-content-end align-items-center">
+                    <div class="">
+                        <svg viewBox="-4.5 0 20 20" version="1.1" width="20px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <title>arrow_right [#ffffff]</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs> </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Dribbble-Light-Preview" transform="translate(-305.000000, -6679.000000)" fill="#ffffff">
+                                        <g id="icons" transform="translate(56.000000, 160.000000)">
+                                            <path d="M249.365851,6538.70769 L249.365851,6538.70769 C249.770764,6539.09744 250.426289,6539.09744 250.830166,6538.70769 L259.393407,6530.44413 C260.202198,6529.66364 260.202198,6528.39747 259.393407,6527.61699 L250.768031,6519.29246 C250.367261,6518.90671 249.720021,6518.90172 249.314072,6519.28247 L249.314072,6519.28247 C248.899839,6519.67121 248.894661,6520.31179 249.302681,6520.70653 L257.196934,6528.32352 C257.601847,6528.71426 257.601847,6529.34685 257.196934,6529.73759 L249.365851,6537.29462 C248.960938,6537.68437 248.960938,6538.31795 249.365851,6538.70769" id="arrow_right-[#ffffff]"> </path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <!-- Catatan Withdraw -->
+    <a href="<?= base_url() . 'profile/catatan-withdraw' ?>" class="row mt-3 mx-2">
+        <div class="d-flex justify-content-center btn-section-profile">
+            <div class="row my-auto mx-auto w-100 d-flex justify-content-between">
+                <div class="col-2" style="background-color: #E2B30B; border-radius: 100%; height: 40px; width: 40px; display: flex; align-items: center; justify-content: center;">
+                    <div class="">
+                        <svg viewBox="0 0 24 24" width="25px" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23 4C23 2.34315 21.6569 1 20 1H4C2.34315 1 1 2.34315 1 4V14C1 15.6569 2.34315 17 4 17H5C5.55228 17 6 16.5523 6 16C6 15.4477 5.55228 15 5 15H4C3.44772 15 3 14.5523 3 14L3 8H21V14C21 14.5523 20.5523 15 20 15H19C18.4477 15 18 15.4477 18 16C18 16.5523 18.4477 17 19 17H20C21.6569 17 23 15.6569 23 14V4ZM21 6V4C21 3.44772 20.5523 3 20 3H4C3.44772 3 3 3.44771 3 4V6H21Z" fill="#ffffff"></path>
+                                <path d="M13 22C13 22.5523 12.5523 23 12 23C11.4477 23 11 22.5523 11 22L11 16.4069L9.70714 17.6996C9.31657 18.0903 8.68346 18.0903 8.29289 17.6996C7.90239 17.3093 7.90239 16.676 8.29289 16.2856L11.2924 13.2923C11.683 12.9024 12.3156 12.9028 12.7059 13.293L15.705 16.2922C16.0956 16.6828 16.0956 17.3159 15.705 17.7065C15.3145 18.0969 14.6813 18.0969 14.2908 17.7065L13 16.4157L13 22Z" fill="#ffffff"></path>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="d-flex justify-content-center align-items-center" style="font-size: 18px; color: white; font-weight: 600; height: 100%;">
+                        <span>Catatan Withdraw</span>
                     </div>
                 </div>
                 <div class="col-2 d-flex justify-content-end align-items-center">

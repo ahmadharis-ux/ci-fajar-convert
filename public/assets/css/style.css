@@ -1393,6 +1393,76 @@ input[type=text],input[type=password]:focus {
     border-radius: 10px;
 }
 
+.cari-withdraw{
+    background-color: #25D4B7;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
+}
+
+.cari-withdraw input[type=text]{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent !important;
+    color:white !important;
+    text-align: right;
+    width: 38%;
+}
+
+.cari-withdraw input[type=text]:focus{
+    outline: none !important;
+}
+
+.cari-withdraw input[type=text]::placeholder{
+    color: white !important;
+}
+
+.btn-cari-catatan-withdraw{
+    color: #E2B30B;
+    background-color: #083A70;
+    font-size: 15px;
+    border-radius: 20px;
+    border:none;
+    width: 80px;
+}
+
+.content-withdraw{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background-color: #25D4B7;
+    border-radius: 10px;
+    border:none;
+}
+
+.status-withdraw{
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.withdraw-success {
+    background-color: green !important;
+}
+
+.withdraw-pending {
+    background-color: rgb(201, 201, 1) !important;
+}
+
+.withdraw-failed {
+    background-color: rgb(184, 4, 4) !important;
+}
+
+.nominal-withdraw {
+    font-size: 20px;
+    /* margin-left: -10px; */
+}
+
 /* Dashboard After Login */
 .header-dashboard-login{
     font-family:'League Spartan', sans-serif;

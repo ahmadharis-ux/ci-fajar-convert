@@ -71,4 +71,14 @@ class Profile extends BaseController
         ];
         return view('profile/catatan_aktifitas', $data);
     }
+
+    public function catatan_withdraw()
+    {
+        $data = [
+            'title' => 'Profile',
+            'active' => 'profile',
+            'username' => 'Ahmad Haris',
+        ];
+        return view('profile/catatan_withdraw', $data);
+    }
 }

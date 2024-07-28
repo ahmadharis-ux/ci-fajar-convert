@@ -42,7 +42,8 @@ $routes->get('profile/', 'Profile::index');
 $routes->get('profile/pengaturan', 'Profile::pengaturan_profile');
 $routes->get('profile/ubah-password', 'Profile::ubah_password');
 $routes->get('profile/mutasi-saldo', 'Profile::mutasi_saldo');
-$routes->get('profile/catatan_aktifitas', 'Profile::catatan_aktifitas');
+$routes->get('profile/catatan-aktifitas', 'Profile::catatan_aktifitas');
+$routes->get('profile/catatan-withdraw', 'Profile::catatan_withdraw');
 
 
 $routes->group('profile', static function ($routes) {
