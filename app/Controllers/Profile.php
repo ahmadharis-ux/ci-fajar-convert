@@ -61,4 +61,14 @@ class Profile extends BaseController
         ];
         return view('profile/mutasi_saldo', $data);
     }
+
+    public function catatan_aktifitas()
+    {
+        $data = [
+            'title' => 'Profile',
+            'active' => 'profile',
+            'username' => 'Ahmad Haris',
+        ];
+        return view('profile/catatan_aktifitas', $data);
+    }
 }
