@@ -40,6 +40,8 @@ $routes->get('/store_setor', 'Lainnya::setor');
 
 $routes->get('profile/pengaturan', 'Profile::pengaturan_profile');
 
+$routes->get('profile/ubah-password', 'Profile::ubah_password');
+
 $routes->group('profile', static function ($routes) {
     $routes->get('/', 'Profile::index');
     $routes->get('/ganti-password', 'Profile::ganti_password');

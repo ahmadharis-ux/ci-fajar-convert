@@ -121,7 +121,7 @@
         </div>
     </a>
     <!-- Ubah password  -->
-    <a href="" class="row mt-3 mx-2">
+    <a href="<?= base_url() . 'profile/ubah-password' ?>" class="row mt-3 mx-2">
         <div class="d-flex justify-content-center btn-section-profile">
             <div class="row my-auto mx-auto w-100 d-flex justify-content-between">
                 <div class="col-2" style="background-color: #E2B30B; border-radius: 100%; height: 40px; width: 40px; display: flex; align-items: center; justify-content: center;">

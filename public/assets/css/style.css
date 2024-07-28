@@ -1245,7 +1245,7 @@ input[type=text],input[type=password]:focus {
     background-color: #E2B30B;
     color: white;
     font-size: 15px;
-    font-weight: 550;
+    font-weight: 400;
     width: 100px;
     border-radius:10px;
     display: flex;
@@ -1260,6 +1260,7 @@ input[type=text],input[type=password]:focus {
 
 .row-edit-pengaturan input[type=text],
 .row-edit-pengaturan input[type=number],
+.row-edit-pengaturan input[type=password],
 .row-edit-pengaturan input[type=email]{
     background-color: rgba(255, 255, 255, 0.753) !important;
     border: none !important;
@@ -1271,6 +1272,7 @@ input[type=text],input[type=password]:focus {
     font-weight: 550 !important;
     padding: 0 15px !important;
 }
+
 
 .input-edit-pengaturan:focus{
     border: none !important;
