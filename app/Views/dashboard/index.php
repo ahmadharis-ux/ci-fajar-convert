@@ -130,7 +130,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-2">
                 <div class="d-flex product justify-content-center">
                     <div class="card-special" style="margin-right: 20px;">
                         <img src="<?= base_url() . 'assets/img/icon/icon-telkomsel.webp' ?>" alt="">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-2">
                 <div class="d-flex product justify-content-center">
                     <div class="card-special" style="margin-right: 20px;">
                         <img src="<?= base_url() . 'assets/img/icon/icon-telkomsel.webp' ?>" alt="">
@@ -184,7 +184,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-2">
                 <div class="d-flex product justify-content-center">
                     <div class="card-special" style="margin-right: 20px;">
                         <img src="<?= base_url() . 'assets/img/icon/icon-telkomsel.webp' ?>" alt="">
@@ -211,7 +211,34 @@
                     </div>
                 </div>
             </div>
+            <div class="row mt-2">
+                <div class="d-flex product justify-content-center">
+                    <div class="card-special" style="margin-right: 20px;">
+                        <img src="<?= base_url() . 'assets/img/icon/icon-telkomsel.webp' ?>" alt="">
+                    </div>
+                    <div class="persen">85%</div>
+                    <div class="line p-0 mx-4 my-2"></div>
+                    <div class="price ">
+                        Rp. 20.000 <br>
+                        s/d <br>
+                        Rp. 2.000.000
+                    </div>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="">
+        <div class="card mt-4">
             <div class="row">
+                <div class="d-flex justify-content-between">
+                    <button class="btn  btn-sm">XL/Axis</button>
+                    <div class="datetime">
+                        17/Aug/2024 <br>
+                        <div class="date">05:30</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
                 <div class="d-flex product justify-content-center">
                     <div class="card-special" style="margin-right: 20px;">
                         <img src="<?= base_url() . 'assets/img/icon/icon-telkomsel.webp' ?>" alt="">

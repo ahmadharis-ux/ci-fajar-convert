@@ -881,7 +881,7 @@ input[type=text],input[type=password]:focus {
     color:white;
 }
 .persen {
-    font-size: 50px;
+    font-size: 30px;
     font-weight:800;
 
 }
@@ -891,7 +891,7 @@ input[type=text],input[type=password]:focus {
     margin: 0 20px;
 }
 .price {
-    font-size: 11px;
+    font-size: 12px;
     font-weight:600;
 
 }
