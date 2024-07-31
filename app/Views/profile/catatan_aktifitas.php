@@ -24,7 +24,7 @@
 <!-- end of header -->
 
 <div class="page-content content-dashboard mt-0 pb-4">
-    <div class="row">
+    <div class="row ms-2">
         <div class="tag-mutasi-transaksi d-flex justify-content-center align-items-center">
             <span style="margin-right: 5px;">Catatan Aktifitas</span>
             <svg viewBox="0 0 24 24" width="20px" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    <div class="row mt-3 row-content-activity fw-bold py-1 d-flex justify-content-center">
+    <div class="row mt-3 mx-auto row-content-activity fw-bold py-1 d-flex justify-content-center">
         <div class="row d-flex justify-content-between" style="border:none; border-bottom: 2px solid white !important;">
             <div class="col">
                 <label for="text-left">ID 111211</label>
@@ -79,7 +79,7 @@
         </div>
     </div>
 
-    <div class="row mt-3 row-content-activity fw-bold py-1 d-flex justify-content-center">
+    <div class="row mt-3 mx-auto row-content-activity fw-bold py-1 d-flex justify-content-center">
         <div class="row d-flex justify-content-between" style="border:none; border-bottom: 2px solid white !important;">
             <div class="col">
                 <label for="text-left">ID 111211</label>
@@ -102,7 +102,7 @@
         </div>
     </div>
 
-    <div class="row mt-3 row-content-activity fw-bold py-1 d-flex justify-content-center">
+    <div class="row mt-3 mx-auto row-content-activity fw-bold py-1 d-flex justify-content-center">
         <div class="row d-flex justify-content-between" style="border:none; border-bottom: 2px solid white !important;">
             <div class="col">
                 <label for="text-left">ID 111211</label>
@@ -125,7 +125,7 @@
         </div>
     </div>
 
-    <div class="row mt-3 row-content-activity fw-bold py-1 d-flex justify-content-center">
+    <div class="row mt-3 mx-auto row-content-activity fw-bold py-1 d-flex justify-content-center">
         <div class="row d-flex justify-content-between" style="border:none; border-bottom: 2px solid white !important;">
             <div class="col">
                 <label for="text-left">ID 111211</label>

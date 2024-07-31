@@ -35,6 +35,7 @@ $routes->get('/home', function () {
 $routes->get('/lainnya', 'Lainnya::index');
 
 $routes->get('/store_withdraw', 'Lainnya::withdraw');
+$routes->get('cari_metode', 'Lainnya::cari_metode_withdraw');
 
 $routes->get('/store_setor', 'Lainnya::setor');
 

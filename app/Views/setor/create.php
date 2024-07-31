@@ -4,8 +4,8 @@
         <div class="background-withdraw">
             <div class="navbar-satu">
                 <div class="d-flex justify-content-between">
-                    <div><i class="bi bi-chevron-left"></i></div>
-                    <div><i class="bi bi-bell"></i></div>
+                    <a href="<?= base_url() . 'lainnya' ?>" class="mt-2"><i class="bi bi-chevron-left"></i></a>
+                    <a href="" class="mt-2"><i class="bi bi-bell "></i></a>
                 </div>
                 <h1 class="text-center mt-2">Convert pulsa</h1>
                 <div class="overflow-withdraw">
@@ -47,7 +47,7 @@
                             <button class="btn btn-withdraw btn-sm mt-3">Submit</button>
                         </form>
                     </div>
-                    <div class="accordion mt-3" id="accordionExample" style="border-radius:15px !important;border:0 !important;background-color:#25D4B7;">
+                    <div class="accordion mt-3 mb-5" id="accordionExample" style="border-radius:15px !important;border:0 !important;background-color:#25D4B7;">
                         <div class="accordion-item" style="border-radius:15px !important;border:0 !important;background-color:#25D4B7;">
                             <h2 class="accordion-header" style="border:none !important;border-radius:15px !important;border:0 !important;background-color:#25D4B7;">
                                 <button class="accordion-button" style="border-radius:15px !important;border:transparent !important;background-color:#25D4B7;color:#083A70" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

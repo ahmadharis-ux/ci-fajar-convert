@@ -1333,7 +1333,7 @@ input[type=text],input[type=password]:focus {
     color: black;
     font-size: 15px;
     font-weight: 600;
-    width: 488px;
+    width: 100%;
     max-width: 500px;
     height: 25px;
 }
@@ -1435,6 +1435,7 @@ input[type=text],input[type=password]:focus {
     background-color: #25D4B7;
     border-radius: 10px;
     border:none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
 }
 
 .status-withdraw{
@@ -1461,6 +1462,63 @@ input[type=text],input[type=password]:focus {
 .nominal-withdraw {
     font-size: 20px;
     /* margin-left: -10px; */
+}
+
+.btn-pilih-metode{
+    background-color: white !important;
+    font-size: 13px !important;
+    width: 100%;
+    border-radius: 5px !important;
+    color: black !important;
+    text-align: left !important;
+    height: 27px !important;
+}
+
+.overflow-content-metode{
+        width: auto;
+        /* Atur lebar sesuai kebutuhan */
+        height: 75vh;
+        /* Atur tinggi sesuai kebutuhan, atau set ke nilai tetap */
+        overflow: hidden;
+        /* Menghilangkan scrollbar jika tidak diperlukan */
+        overflow-x: none;
+        /* Tambah scrollbar horizontal jika konten melampaui lebar elemen */
+        overflow-y: auto;
+        /* Tambah scrollbar vertikal jika konten melampaui tinggi elemen */
+        margin-top: -20px;
+}
+
+.wrapper-content-metode{
+    background-color: transparent;
+    height: auto;
+    width: 100% !important;
+    font-size: 15px !important;
+    font-weight: 600;
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.content-metode{
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
+    border: none;
+}
+
+.content-metode img{
+    object-fit:contain !important;
+    width: 60px !important;
+}
+
+.input-metode::placeholder{
+    color: black !important;
 }
 
 /* Dashboard After Login */
@@ -1623,11 +1681,12 @@ input[type=text],input[type=password]:focus {
     height:43vh;
     border-radius:0 0 30px 30px;
     background: linear-gradient(to right, #054EB4, #CF286E);
-    max-width:480px;
+    max-width:500px;
     padding-left:1.5rem;
     padding-right:1.5rem;
     padding-top:1.5rem;
     font-family:'League Spartan', sans-serif;
+
 }
 .overflow-withdraw {
     position: relative;
@@ -1644,7 +1703,6 @@ input[type=text],input[type=password]:focus {
     z-index: 1;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: red;
 }
 .container-withdraw .card{
     background-color:#25D4B7;

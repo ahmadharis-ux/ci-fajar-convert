@@ -58,7 +58,7 @@
 
     <!-- mutasi  -->
     <div class="row mt-3">
-        <div class="row d-flex align-items-center">
+        <div class="row mx-auto" style="background-color: #D9D9D9">
             <div class="tanggal-mutasi-transaksi">
                 19-July-2023
             </div>

@@ -297,7 +297,7 @@
     </a>
     <hr style="border: 1px solid; border-radius: 100%; width:100%">
     <!-- log Out -->
-    <a href="" class="row mt-3 mb-4 mx-2">
+    <a href="<?= base_url() . 'dashboard' ?>" class="row mt-3 mb-4 mx-2">
         <div class="d-flex justify-content-center btn-section-profile">
             <div class="row my-auto mx-auto w-100 d-flex justify-content-between">
                 <div class="col-2" style="background-color: #E2B30B; border-radius: 100%; height: 40px; width: 40px; display: flex; align-items: center; justify-content: center;">
@@ -317,27 +317,11 @@
                     </div>
                 </div>
                 <div class="col-2 d-flex justify-content-end align-items-center">
-                    <div class="">
-                        <!-- <svg viewBox="-4.5 0 20 20" version="1.1" width="30px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <title>arrow_right [#ffffff]</title>
-                                <desc>Created with Sketch.</desc>
-                                <defs> </defs>
-                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="Dribbble-Light-Preview" transform="translate(-305.000000, -6679.000000)" fill="#ffffff">
-                                        <g id="icons" transform="translate(56.000000, 160.000000)">
-                                            <path d="M249.365851,6538.70769 L249.365851,6538.70769 C249.770764,6539.09744 250.426289,6539.09744 250.830166,6538.70769 L259.393407,6530.44413 C260.202198,6529.66364 260.202198,6528.39747 259.393407,6527.61699 L250.768031,6519.29246 C250.367261,6518.90671 249.720021,6518.90172 249.314072,6519.28247 L249.314072,6519.28247 C248.899839,6519.67121 248.894661,6520.31179 249.302681,6520.70653 L257.196934,6528.32352 C257.601847,6528.71426 257.601847,6529.34685 257.196934,6529.73759 L249.365851,6537.29462 C248.960938,6537.68437 248.960938,6538.31795 249.365851,6538.70769" id="arrow_right-[#ffffff]"> </path>
-                                        </g>
-                                    </g>
-                                </g>
-                            </g>
-                        </svg> -->
-                    </div>
+
                 </div>
             </div>
         </div>
     </a>
 </div>
+
 <?= $this->include('layouts/footer_after_login'); ?>

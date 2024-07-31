@@ -24,7 +24,7 @@
 <!-- end of header -->
 
 <div class="page-content content-dashboard mt-0 pb-4">
-    <div class="row">
+    <div class="row ms-2">
         <div class="tag-mutasi-transaksi d-flex justify-content-center align-items-center" style="width: 180px !important;">
             <span style="margin-right: 5px;">Catatan Withdraw</span>
             <svg viewBox="0 0 24 24" width="20px" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="row mt-3 ">
+    <div class="row mt-3 mx-auto">
         <div class="cari-withdraw py-2 px-3 fw-bold">
             <div class="row">
                 <div class="col d-flex justify-content-between">
@@ -53,48 +53,48 @@
         </div>
     </div>
 
-    <div class="row mt-3 content-withdraw px-2 mx-auto d-flex justify-content-center">
+    <div class="row mt-3 pb-3 content-withdraw px-2 mx-auto d-flex justify-content-center">
         <div class="row d-flex justify-content-between py-2 px-2 d-flex justify-content-center align-items-center">
             <div class="col-3 status-withdraw withdraw-success">
                 Success
             </div>
+            <div class="col tanggal-withdraw" style="text-align: right;">
+                <label for="">12-12-2021 15:50:49</label>
+            </div>
+        </div>
+        <div class="row">
             <div class="col nominal-withdraw text-center">
                 Rp. 6.000.000
             </div>
-            <div class="col-3 tanggal-withdraw" style="text-align: right;">
-                <label for="">12-12-2021</label>
-                <br>
-                <label for="">15:50:49</label>
-            </div>
         </div>
     </div>
-    <div class="row mt-3 content-withdraw px-2 mx-auto d-flex justify-content-center">
+    <div class="row mt-3 pb-3 content-withdraw px-2 mx-auto d-flex justify-content-center">
         <div class="row d-flex justify-content-between py-2 px-2 d-flex justify-content-center align-items-center">
             <div class="col-3 status-withdraw withdraw-pending">
                 Pending
             </div>
+            <div class="col tanggal-withdraw" style="text-align: right;">
+                <label for="">12-12-2021 15:50:49</label>
+            </div>
+        </div>
+        <div class="row">
             <div class="col nominal-withdraw text-center">
                 Rp. 6.000.000
             </div>
-            <div class="col-3 tanggal-withdraw" style="text-align: right;">
-                <label for="">12-12-2021</label>
-                <br>
-                <label for="">15:50:49</label>
-            </div>
         </div>
     </div>
-    <div class="row mt-3 content-withdraw px-2 mx-auto d-flex justify-content-center">
+    <div class="row mt-3 pb-3 content-withdraw px-2 mx-auto d-flex justify-content-center">
         <div class="row d-flex justify-content-between py-2 px-2 d-flex justify-content-center align-items-center">
             <div class="col-3 status-withdraw withdraw-failed">
                 Failed
             </div>
+            <div class="col tanggal-withdraw" style="text-align: right;">
+                <label for="">12-12-2021 15:50:49</label>
+            </div>
+        </div>
+        <div class="row">
             <div class="col nominal-withdraw text-center">
                 Rp. 6.000.000
-            </div>
-            <div class="col-3 tanggal-withdraw" style="text-align: right;">
-                <label for="">12-12-2021</label>
-                <br>
-                <label for="">15:50:49</label>
             </div>
         </div>
     </div>
