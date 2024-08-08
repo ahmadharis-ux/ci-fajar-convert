@@ -24,7 +24,7 @@
                 <img src="<?= base_url(); ?>assets/img/icon/ri_chat-new-fill.png" alt=""> <br>
                 Baru
             </a>
-            <a href="" class="btn" style="z-index: 9999;">
+            <a href="<?= base_url() . 'riwayat_withdraw' ?>" class="btn" style="z-index: 9999;">
                 <img src="<?= base_url(); ?>assets/img/icon/material-symbols_history.png" alt=""> <br>
                 Riwayat
             </a>
@@ -44,7 +44,7 @@
                 <img src="<?= base_url(); ?>assets/img/icon/ri_chat-new-fill.png" alt=""> <br>
                 Baru
             </a>
-            <a href="" class="btn" style="z-index: 9999;">
+            <a href="<?= base_url() . 'riwayat_setor' ?>" class="btn" style="z-index: 9999;">
                 <img src="<?= base_url(); ?>assets/img/icon/material-symbols_history.png" alt=""> <br>
                 Riwayat
             </a>

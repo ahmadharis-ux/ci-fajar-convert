@@ -184,4 +184,27 @@ class Lainnya extends BaseController
         // Return or use the transformed list
         return $this->response->setJSON($response);
     }
+
+    public function riwayat_withdraw()
+    {
+        $data = [
+            'title' => 'Lainnya',
+            'active' => 'lainnya',
+            'username' => 'Ahmad Haris',
+            'saldo' => 100000,
+            'transaksi' => 2500000,
+        ];
+        return view('withdraw/riwayat', $data);
+    }
+    public function riwayat_setor()
+    {
+        $data = [
+            'title' => 'Lainnya',
+            'active' => 'lainnya',
+            'username' => 'Ahmad Haris',
+            'saldo' => 100000,
+            'transaksi' => 2500000,
+        ];
+        return view('setor/riwayat', $data);
+    }
 }

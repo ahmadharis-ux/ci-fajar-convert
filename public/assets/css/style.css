@@ -1688,6 +1688,48 @@ input[type=text],input[type=password]:focus {
     font-family:'League Spartan', sans-serif;
 
 }
+
+.background-withdraw-riwayat {
+    position: fixed;
+    width: 100%;
+    z-index: -99;
+    top: 0;
+    height: 23vh;
+    border-radius: 0 0 30px 30px;
+    background: linear-gradient(to right, #054EB4, #CF286E);
+    max-width: 500px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.row-riwayat-lainnya {
+    border-radius: 10px;
+    margin: 30px auto;
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.row-riwayat-lainnya img{
+    width: 50px;
+}
+
+.status-riwayat{
+    background-color: #25D4B7;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    width: 80px;
+}
+
+.tanggal-riwayat{
+    font-size: 12px;
+    color: black;
+
+}
+
 .overflow-withdraw {
     position: relative;
     z-index: 2;
