@@ -1494,22 +1494,29 @@ input[type=text],input[type=password]:focus {
     width: 100% !important;
     font-size: 15px !important;
     font-weight: 600;
-    border: 2px solid black;
+    border: 2px solid #D9D9D9;
     background-color: transparent;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 5px;
 }
 
 .content-metode{
-    width: 70px !important;
-    height: 70px !important;
+    width: 65px !important;
+    height: 65px !important;
     border-radius: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5) !important; */
     border: none;
+}
+
+.admin-bank{
+    border-radius: 20px;
+    border: none;
+    background-color: #25D4B7;
+    color: white;
 }
 
 .content-metode img{

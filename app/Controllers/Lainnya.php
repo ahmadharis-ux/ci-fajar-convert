@@ -73,13 +73,23 @@ class Lainnya extends BaseController
             'PDN50' => 'Bank Pembangunan Daerah Nusa Tenggara Timur',
         ];
 
+        $new_list_bank = [];
+
+        foreach ($list_bank as $key => $data) {
+            $new_list_bank[] = [
+                'code_bank' => $key,
+                'name_bank' => $data,
+                'admin_bank' => rand(1000, 5000)
+            ];
+        }
+
         $data = [
             'title' => 'New Withdraw',
             'active' => 'lainnya',
             'username' => 'Ahmad Haris',
             'saldo' => 100000,
             'transaksi' => 2500000,
-            'list_bank' => $list_bank
+            'list_bank' => $new_list_bank
         ];
         return view('withdraw/create', $data);
     }
@@ -151,6 +161,11 @@ class Lainnya extends BaseController
             'PDN50' => 'Bank Pembangunan Daerah Nusa Tenggara Timur',
         ];
 
+        foreach ($list_bank as $code => $name) {
+            $random_cost = rand(1000, 5000);
+            $list_bank[$code] = $name . ' - Biaya: Rp. ' . number_format($random_cost, 0, ',', '.');
+        }
+
         $cari = $this->request->getVar('cari', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
         // Initialize an empty array to hold the transformed data
@@ -161,7 +176,8 @@ class Lainnya extends BaseController
             if (stripos($bank_name, $cari) !== false) {
                 $results[] = [
                     'code_bank' => $code,
-                    'name_bank' => $bank_name
+                    'name_bank' => $bank_name,
+                    'admin_bank' => rand(1000, 5000)
                 ];
             }
         }

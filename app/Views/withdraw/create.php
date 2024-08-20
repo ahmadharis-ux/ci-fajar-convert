@@ -78,12 +78,7 @@
                             <label for="" class="">Metode</label>
                             <br>
                             <button type="button" class="btn btn-pilih-metode">Pilih Metode</button>
-                            <!-- <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search..."> -->
-                            <!-- <datalist id="datalistOptions">
-                                <?php foreach ($list_bank as $key => $data) : ?>
-                                    <option value="<?= $data ?>">
-                                    <?php endforeach ?>
-                            </datalist> -->
+
                         </div>
                         <div class="form-group">
                             <label for="" class="">Nomor rekening</label>
@@ -156,7 +151,7 @@
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog" role="document">
-        <div class="modal-content">
+        <div class="modal-content" style="border-radius: 20px !important;">
             <div class="modal-header" style="border-bottom: none;">
                 <input class="form-control input-metode" type="text" name="" id="" placeholder="Cari Bank">
                 <button type="button" class="close" style="margin-left: 10px !important; border: none; background-color: transparent;" data-dismiss="modal" aria-label="Close">
@@ -170,16 +165,21 @@
                 <div class="overflow-content-metode p-3">
                     <div class="row row-content-metode">
                         <?php foreach ($list_bank as $key => $data) : ?>
-                            <div class="col-12 col-lg-6 my-1 ">
-                                <button type="button" class="wrapper-content-metode btn-metode" data-id="<?= $key ?>">
-                                    <div class="row d-flex justify-content-between">
-                                        <div class="col-5">
+                            <div class="col-12 my-1 ">
+                                <button type="button" class="wrapper-content-metode btn-metode" data-id="<?= $data['code_bank'] ?>">
+                                    <div class="row d-flex justify-content-rounded">
+                                        <div class="col-3">
                                             <div class="content-metode">
                                                 <img src="<?= base_url() . 'assets/img/icon/bca.png' ?>" alt="">
                                             </div>
                                         </div>
-                                        <div class="col-7 d-flex justify-content-center align-items-center">
-                                            <span class="name_bank" id="name_bank"> <?= $data; ?> </span>
+                                        <div class="col-6 d-flex justify-content-center align-items-center ">
+                                            <span class="name_bank text-left" id="name_bank"> <?= $data['name_bank']; ?> </span>
+                                        </div>
+                                        <div class="col-3 d-flex justify-content-center align-items-center">
+                                            <div class="admin-bank py-1 px-2" style="">
+                                                <span class="name_bank" id="">Rp. <?= str_replace('.', ',', number_format($data['admin_bank'])) ?> </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </button>
