@@ -2,7 +2,9 @@
 <header class="top-header header-profile">
     <div class="navbar-satu">
         <div class="d-flex justify-content-between">
-            <div class="mt-2"><i class="bi bi-chevron-left"></i></div>
+            <div class="mt-2">
+                <!-- <i class="bi bi-chevron-left"></i> -->
+            </div>
             <div class="mt-2"><i class="bi bi-bell "></i></div>
         </div>
     </div>

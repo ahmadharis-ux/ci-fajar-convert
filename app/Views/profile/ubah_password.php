@@ -10,13 +10,13 @@
         <div class="row mx-auto text-center mt-3 ">
             <h1>Ubah Password</h1>
             <img src="<?= base_url(); ?>assets/img/example-image/fix-logo.png" style="width: 100px !important; height: 100px !important; margin-top: -5px !important;" class="mx-auto mt-3 mb-2" alt="">
-            <a href="" class="d-flex justify-content-center">
+            <!-- <a href="" class="d-flex justify-content-center">
                 <div class="edit-profile-pengaturan d-flex align-items-center justify-content-center">
                     <span>
                         Edit Profile
                     </span>
                 </div>
-            </a>
+            </a> -->
         </div>
     </nav>
 </header>
