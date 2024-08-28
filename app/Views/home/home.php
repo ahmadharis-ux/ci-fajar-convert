@@ -1,6 +1,6 @@
 <?= $this->include('layouts/header'); ?>
 <div class="page-content">
-<div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -27,4 +27,4 @@
         </button>
     </div>
 </div>
-<?= $this->include('layouts/footer'); ?>
+<?= $this->include('layouts/footer_after_login'); ?>

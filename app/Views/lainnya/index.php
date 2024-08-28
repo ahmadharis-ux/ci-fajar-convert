@@ -1,115 +1,55 @@
-<!doctype html>
-<html lang="en" class="light-theme">
+<?= $this->include('layouts/header_satu'); ?>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Synrok - Mobile HTML Template</title>
+<header class="top-header header-lainnya-login align-items-center mx-auto" <?php echo ((\Config\Services::request()->getUserAgent()->isMobile() == false) ? 'style="width: 500px;"' : ""); ?>>
+    <nav class="navbar navbar-expand w-100 p-0 gap-3 align-items-center">
+        <div class="mx-auto text-center mt-3">
+            <img src="<?= base_url(); ?>assets/img/example-image/fix-logo.png" class="mx-auto mt-3 mb-2" alt="">
+            <h1><?= $username; ?></h1>
+        </div>
+    </nav>
 
-    <!-- Plugins -->
-    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/metisMenu.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/mm-vertical.css" />
-    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css" />
+</header>
+<!-- end of header -->
 
-    <!--CSS Files-->
-    <link href="<?= base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Lexend+Giga:wght@100..900&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link href="<?= base_url(); ?>assets/css/style.css" rel="stylesheet" />
-    <link href="<?= base_url(); ?>assets/css/dark-theme.css" rel="stylesheet" />
-
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-</head>
-
-<body class="mx-auto bg-reset" <?php echo ((\Config\Services::request()->getUserAgent()->isMobile() == false) ? 'style="width: 500px;"' : ""); ?>>
-
-    <!--page loader-->
-    <div class="loader-wrapper">
-        <div class="d-flex justify-content-center align-items-center position-absolute top-50 start-50 translate-middle">
-            <div class="spinner-border text-white" role="status">
-                <span class="visually-hidden">Loading...</span>
-            </div>
+<div class="page-content content-lainnya mt-0">
+    <div class="card card-main mt-4">
+        <label class="mx-auto" for="">Withdraw</label>
+        <div class="line-lainnya mx-auto"></div>
+        <div class="d-flex justify-content-around">
+            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M60 75C50.8 75 50 70.7 50 70H40C40 74.6 43.3 82.75 55 84.6V90H65V84.6C75 82.9 80 76.45 80 70C80 64.4 77.4 55 60 55C50 55 50 51.85 50 50C50 48.15 53.5 45 60 45C66.5 45 66.95 48.2 67 50H77C76.9324 46.5938 75.7073 43.312 73.5263 40.6948C71.3452 38.0775 68.3382 36.2807 65 35.6V30H55V35.45C45 37.1 40 43.55 40 50C40 55.6 42.6 65 60 65C70 65 70 68.4 70 70C70 71.6 66.9 75 60 75Z" fill="#FDFCF2" fill-opacity="0.4" />
+                <path d="M25 10H10V20H20V105C20 106.326 20.5268 107.598 21.4645 108.536C22.4021 109.473 23.6739 110 25 110H95C96.3261 110 97.5979 109.473 98.5355 108.536C99.4732 107.598 100 106.326 100 105V20H110V10H25ZM90 100H30V20H90V100Z" fill="#FDFCF2" fill-opacity="0.4" />
+            </svg>
+            <a href="<?= base_url('store_withdraw') ?>" class="btn" style="z-index: 9999;">
+                <img src="<?= base_url(); ?>assets/img/icon/ri_chat-new-fill.png" alt=""> <br>
+                Baru
+            </a>
+            <a href="<?= base_url() . 'riwayat_withdraw' ?>" class="btn" style="z-index: 9999;">
+                <img src="<?= base_url(); ?>assets/img/icon/material-symbols_history.png" alt=""> <br>
+                Riwayat
+            </a>
         </div>
     </div>
-    <!--end loader-->
+    <div class="card card-main mt-4">
+        <label class="mx-auto" for="">Setor</label>
+        <div class="line-lainnya mx-auto"></div>
+        <div class="d-flex justify-content-around">
+            <!-- <img src="<?= base_url(); ?>assets/img/icon/bx_transaction.png" alt="" class="bg-image mt-2"> -->
+            <svg width="94" height="104" viewBox="0 0 94 104" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 32V102H77V32" stroke="#FDFCF2" stroke-opacity="0.4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M34.5 42L47 57M47 57L59.5 42M47 57V87M32 72H62M32 57H62M22 17H72M77 37H92V2H2V37H17" stroke="#FDFCF2" stroke-opacity="0.4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
 
-    <!--start wrapper-->
-    <div class="wrapper">
-        <!--start to header-->
-
-        <!-- <div id="navbar" class="d-flex justify-content-between align-items-center">
-            <div>
-                <a href="#home">
-                    <img width="50" src="<?= base_url(); ?>assets/img/example-image/fix-logo.png" class="mx-auto mt-3 mb-2" alt="">
-                </a>
-            </div>
-            <div style="font-size: 20px; color:#FDFAE3">
-            <i class="bi bi-person"></i> <?= $username; ?>
-            </div>
-        </div> -->
-        <header class="top-header header-lainnya-login align-items-center mx-auto" <?php echo ((\Config\Services::request()->getUserAgent()->isMobile() == false) ? 'style="width: 500px;"' : ""); ?>>
-            <nav class="navbar navbar-expand w-100 p-0 gap-3 align-items-center">
-                <div class="mx-auto text-center mt-3">
-                    <img src="<?= base_url(); ?>assets/img/example-image/fix-logo.png" class="mx-auto mt-3 mb-2" alt="">
-                    <h1><?= $username; ?></h1>
-                </div>
-            </nav>
-
-        </header>
-        <!-- end of header -->
-
-        <div class="page-content content-lainnya mt-0">
-            <div class="card card-main mt-4">
-                <label class="mx-auto" for="">Withdraw</label>
-                <div class="line-lainnya mx-auto"></div>
-                <div class="d-flex justify-content-around">
-                    <img src="<?= base_url(); ?>assets/img/icon/bx_money-withdraw.png" alt="" class="bg-image">
-                    <a href="<?= base_url('store_withdraw')?>" class="btn">
-                        <img src="<?= base_url(); ?>assets/img/icon/ri_chat-new-fill.png" alt=""> <br>
-                        Baru
-                    </a>
-                    <a href="" class="btn">
-                        <img src="<?= base_url(); ?>assets/img/icon/material-symbols_history.png" alt=""> <br>
-                        Riwayat
-                    </a>
-                </div>
-            </div>
-            <div class="card card-main mt-4">
-                <label class="mx-auto" for="">Setor</label>
-                <div class="line-lainnya mx-auto"></div>
-                <div class="d-flex justify-content-around">
-                    <img src="<?= base_url(); ?>assets/img/icon/bx_transaction.png" alt="" class="bg-image mt-2">
-
-                    <a href="" class="btn">
-                        <img src="<?= base_url(); ?>assets/img/icon/ri_chat-new-fill.png" alt=""> <br>
-                        Baru
-                    </a>
-                    <a href="" class="btn">
-                        <img src="<?= base_url(); ?>assets/img/icon/material-symbols_history.png" alt=""> <br>
-                        Riwayat
-                    </a>
-                </div>
-            </div>
+            <a href="<?= base_url('store_setor'); ?>" class="btn" style="z-index: 9999;">
+                <img src="<?= base_url(); ?>assets/img/icon/ri_chat-new-fill.png" alt=""> <br>
+                Baru
+            </a>
+            <a href="<?= base_url() . 'riwayat_setor' ?>" class="btn" style="z-index: 9999;">
+                <img src="<?= base_url(); ?>assets/img/icon/material-symbols_history.png" alt=""> <br>
+                Riwayat
+            </a>
         </div>
     </div>
-    <!-- <script>
-        // When the user scrolls down 20px from the top of the document, slide down the navbar
-        window.onscroll = function() {
-            scrollFunction()
-        };
+</div>
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-                document.getElementById("navbar").style.top = "0";
-            } else {
-                document.getElementById("navbar").style.top = "-100px";
-            }
-        }
-    </script> -->
-
-    <?= $this->include('layouts/footer_after_login'); ?>
+<?= $this->include('layouts/footer_after_login'); ?>

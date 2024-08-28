@@ -1,0 +1,46 @@
+CRITICAL - 2024-07-31 21:23:30 --> Invalid file: "lainnya/cari_list_bank.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('lainnya/cari_list_bank.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('lainnya/cari_list_bank', [], true)
+ 3 APPPATH\Controllers\Lainnya.php(175): view('lainnya/cari_list_bank', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Lainnya->cari_metode_withdraw()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lainnya))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ci-fajar-convert\\public\\index.php')
+CRITICAL - 2024-07-31 21:24:00 --> Undefined variable $results
+in APPPATH\Views\withdraw\cari_list_bank.php on line 3.
+ 1 APPPATH\Views\withdraw\cari_list_bank.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\laragon\\www\\ci-fajar-convert\\app\\Views\\withdraw\\cari_list_bank.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\ci-fajar-convert\\app\\Views\\withdraw\\cari_list_bank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('withdraw/cari_list_bank', [], true)
+ 5 APPPATH\Controllers\Lainnya.php(175): view('withdraw/cari_list_bank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Lainnya->cari_metode_withdraw()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lainnya))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ci-fajar-convert\\public\\index.php')
+CRITICAL - 2024-07-31 21:24:20 --> Undefined variable $results
+in APPPATH\Views\withdraw\cari_list_bank.php on line 3.
+ 1 APPPATH\Views\withdraw\cari_list_bank.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'C:\\laragon\\www\\ci-fajar-convert\\app\\Views\\withdraw\\cari_list_bank.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\ci-fajar-convert\\app\\Views\\withdraw\\cari_list_bank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('withdraw/cari_list_bank', [], true)
+ 5 APPPATH\Controllers\Lainnya.php(175): view('withdraw/cari_list_bank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Lainnya->cari_metode_withdraw()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lainnya))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ci-fajar-convert\\public\\index.php')
+CRITICAL - 2024-07-31 22:08:19 --> Array to string conversion
+in APPPATH\Views\withdraw\cari_list_bank.php on line 13.
+ 1 APPPATH\Views\withdraw\cari_list_bank.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\ci-fajar-convert\\app\\Views\\withdraw\\cari_list_bank.php', 13)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\laragon\\www\\ci-fajar-convert\\app\\Views\\withdraw\\cari_list_bank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('withdraw/cari_list_bank', [], true)
+ 5 APPPATH\Controllers\Lainnya.php(175): view('withdraw/cari_list_bank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Lainnya->cari_metode_withdraw()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lainnya))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ci-fajar-convert\\public\\index.php')

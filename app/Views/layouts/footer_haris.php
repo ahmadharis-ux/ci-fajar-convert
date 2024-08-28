@@ -2,7 +2,7 @@
 <footer class="page-footer fixed-bottom footer-haris-before bg-transparent d-flex align-items-center mx-auto" <?php echo ((\Config\Services::request()->getUserAgent()->isMobile() == false) ? 'style="width: 500px;"' : ""); ?>>
     <nav class="navbar navbar-expand p-0 flex-grow-1">
         <div class="navbar-nav justify-content-between w-100">
-            <a class="btn btn-circle bg-tele" href="<?= base_url('home') ?>">
+            <a class="btn btn-circle bg-tele " href="<?= base_url('home') ?>">
                 <div class="icon"><i class="bi bi-telegram"></i></div>
             </a>
             <a class="btn btn-blue" href="<?= base_url('login') ?>">
